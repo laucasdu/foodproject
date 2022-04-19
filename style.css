@@ -1,12 +1,14 @@
 body{
     width: 100%;
     height: 99vh;
+    max-height: 800px;
     max-width:360px;
     position: relative;
     /*border-style: solid;
     border-color: red;*/
     margin: 0px;
     font-family:'Lucida Sans';
+
 }
 
 header{
@@ -82,7 +84,7 @@ h3{
 h4{
     margin-top: -6%;
     color:#fcefbb;
-    font-size: 0.6em;
+    font-size: 0.8em;
 }
 
 main {
