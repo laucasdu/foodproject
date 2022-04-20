@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 body{
     width: 100%;
     /*border-style: solid;
     border-color: red;*/
     margin: 0px;
-    font-family:'Lucida Sans';
     overflow-y: hidden;
     overflow-x: hidden;
     overflow: hidden;
