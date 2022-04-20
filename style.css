@@ -50,7 +50,8 @@ section{
     height:15%;
     width: 90%;
     margin-left: 5%;
-    border-radius: 4vw;
+    border-radius:1em;
+    padding-right:1%;
     position:relative;
     background-color:#ff8414;
 }
@@ -172,22 +173,24 @@ footer {
     height:12%;
     width: 100%;
     background:rgba(255,255,255,0.52);
-    position: relative;
-   
-    
+    position:sticky;
 }
 
 .cart{
-    height:90%;
-    width:21%;
+    height:95%;
+    width:20%;
     border-radius: 50%;
     position: relative;
     top: -10%;
-    left:37.5%;
+    left:38.5%;
     border-style: solid;
     border-color:#f6f2f2;
     border-width: 0.35em;
     background-color: #e0e0e0;
+}
+
+.cart:hover{
+    background-color: #fdc138;
 }
 
 .carro{
@@ -196,6 +199,24 @@ footer {
     height:100%;
     top:0%;
     left:10%;
+}
 
-
+.cartnum{
+    position: absolute;
+    top:-25%;
+    left:27%;
+    background-color:#fdc138;
+    height:30%;
+    width:30%;
+    border-radius: 4vw;
+    border-color: white;
+    border-width: 0.20em;
+    border-style: solid;
+    text-decoration: none;
+    color: white;
+    padding: 2%;
+    padding-top: 4%;
+    font-weight: bold;
+    text-align: center;
+    cursor:default;
 }
