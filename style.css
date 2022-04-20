@@ -163,9 +163,9 @@ h6{
 
 
 footer {
-    /*border-style: solid;
-    border-color: violet;*/
-    margin-top: -4%;
+    border-style: solid;
+    border-color: violet;
+    margin-top: -5%;
     height:15%;
     width: 100%;
     background:rgba(255,255,255,0.52);
@@ -178,11 +178,21 @@ footer {
     height:73%;
     width:21%;
     border-radius: 50%;
-    position: absolute;
+    position: relative;
     top: -10%;
     left:39%;
     border-style: solid;
     border-color:#f6f2f2;
     border-width: 0.35em;
     background-color: #e0e0e0;
+}
+
+.carro{
+    position: absolute;
+    width:80%;
+    height:100%;
+    top:0%;
+    left:10%;
+
+
 }
