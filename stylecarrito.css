@@ -29,6 +29,7 @@ h2{
     margin-top: 6%;
     font-size: 1.2em;
     font-weight:bolder;
+    color: black;
 }
 
 h1{
@@ -37,7 +38,7 @@ h1{
     font-size: 1.8em;
 }
 
-.item{
+.itemcalifornia{
     /*border-color: aqua;
     border-style: solid;*/
     display: flex;
@@ -47,6 +48,42 @@ h1{
     background-color: #f9f2f2;
     border-radius: 6vw;
 }
+
+.itemgreek{
+    /*border-color: aqua;
+    border-style: solid;*/
+
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right:5%;
+    background-color: #f9f2f2;
+    border-radius: 6vw;
+    display: flex;
+}
+.itemsicilian{
+    /*border-color: aqua;
+    border-style: solid;*/
+
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right:5%;
+    background-color: #f9f2f2;
+    border-radius: 6vw;
+    display: flex;
+
+}
+.itemlouis{
+    /*border-color: aqua;
+    border-style: solid;*/
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right:5%;
+    background-color: #f9f2f2;
+    border-radius: 6vw;
+    display: flex;
+
+}
+
 
 .pizza{
     /*border-color: green;
@@ -89,7 +126,7 @@ h3{
     align-items: center;
 }
 
-.more {
+.morebut {
     width:23%;
     height:25%;
     text-align: center;
@@ -97,10 +134,23 @@ h3{
     border-radius: 50%;
 }
 
-.more:hover{
+.lessbut {
+    width:23%;
+    height:25%;
+    text-align: center;
+    font-size: 1.3em;
+    border-radius: 50%;
+}
+
+.morebut:hover{
     background-color: #ffda80;
 
 }
+.lessbut:hover{
+    background-color: #ffda80;
+
+}
+
 
 h5{
     font-size: 1.5em;
@@ -167,6 +217,7 @@ footer{
     padding-bottom: 3%;
     border-radius: 10vw;
     text-decoration: none;
+    border-style: inherit;
 }
 
 

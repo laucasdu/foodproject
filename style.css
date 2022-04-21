@@ -195,7 +195,7 @@ footer {
     left:10%;
 }
 
-.cartnum{
+#cartnum{
     top:-25%;
     left:27%;
     background-color:#fdc138;
@@ -214,5 +214,4 @@ footer {
     text-align: center;
     cursor:default;
     position: absolute;
-    /*display: none; /*s'haurà de veure quan es cliqui el botó +*/
 }

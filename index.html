@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="./dinamic.js"></script>
+
     <title>Food</title>
 </head>
 
@@ -31,7 +33,7 @@
                 <h4 class="titlepizza">California Pizza</h4>
                 <h5>Mushroom</h5>
                 <h6>$8.50</h6>
-                <button class="more"> + </button>
+                <button onclick="muestra_oculta('cartnum')" class="more"> + </button>
             </div>
 
         </div>
@@ -42,7 +44,7 @@
                 <h4 class="titlepizza"> Greek Pizza</h4>
                 <h5>Beef</h5>
                 <h6>$12.99</h6>
-                <button class="more"> + </button>
+                <button onclick="muestra_oculta('cartnum')" class="more"> + </button>
             </div>
             
         </div>
@@ -53,7 +55,7 @@
                 <h4 class="titlepizza">Sicilian Pizza</h4> 
                 <h5>Tomato</h5>
                 <h6>$7.90</h6>
-                <button class="more"> + </button>
+                <button onclick="muestra_oculta('cartnum')" class="more"> + </button>
             </div>
             
         </div>
@@ -64,7 +66,7 @@
                 <h4 class="titlepizza">Louis Pizza</h4>
                 <h5>Chiken</h5>
                 <h6>$4.79</h6>
-                <button class="more"> + </button>
+                <button onclick="muestra_oculta('cartnum')" class="more"> + </button>
             </div>
             
         </div>
@@ -74,7 +76,7 @@
 
     <footer>
 
-        <button onclick="location.href='./carrito.html'" class="cart"><img class="carro" src="./images/carro.png"><a class=cartnum href="./carrito.html">1</a></button>
+        <button onclick="location.href='./carrito.html'" class="cart"><img class="carro" src="./images/carro.png"><a id=cartnum href="./carrito.html">1</a></button>
            
     </footer>
 </body>
