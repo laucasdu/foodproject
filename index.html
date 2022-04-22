@@ -10,7 +10,7 @@
     <title>Food</title>
 </head>
 
-<body>
+<body onload="ocultar()">
     <header>
         <a class="titol">PIZZA PLANET</a>
         <img class="coet" src="./images/coet.png" alt="coet">
@@ -33,7 +33,7 @@
                 <h4 class="titlepizza">California Pizza</h4>
                 <h5>Mushroom</h5>
                 <h6>$8.50</h6>
-                <button onclick="muestra_oculta('cartnum')" class="more"> + </button>
+                <button onclick="sumar5()" class="more"> + </button>
             </div>
 
         </div>
@@ -44,7 +44,7 @@
                 <h4 class="titlepizza"> Greek Pizza</h4>
                 <h5>Beef</h5>
                 <h6>$12.99</h6>
-                <button onclick="muestra_oculta('cartnum')" class="more"> + </button>
+                <button onclick="sumar5()" class="more"> + </button>
             </div>
             
         </div>
@@ -55,7 +55,7 @@
                 <h4 class="titlepizza">Sicilian Pizza</h4> 
                 <h5>Tomato</h5>
                 <h6>$7.90</h6>
-                <button onclick="muestra_oculta('cartnum')" class="more"> + </button>
+                <button onclick="sumar5()" class="more"> + </button>
             </div>
             
         </div>
@@ -66,7 +66,7 @@
                 <h4 class="titlepizza">Louis Pizza</h4>
                 <h5>Chiken</h5>
                 <h6>$4.79</h6>
-                <button onclick="muestra_oculta('cartnum')" class="more"> + </button>
+                <button onclick="sumar5()" class="more"> + </button>
             </div>
             
         </div>
@@ -76,7 +76,7 @@
 
     <footer>
 
-        <button onclick="location.href='./carrito.html'" class="cart"><img class="carro" src="./images/carro.png"><a id=cartnum href="./carrito.html">1</a></button>
+        <button onclick="location.href='./carrito.html'" class="cart"><img class="carro" src="./images/carro.png"><a  href="./carrito.html" id=cartnum>0</a></button>
            
     </footer>
 </body>

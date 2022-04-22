@@ -1,4 +1,6 @@
 
+//PART PÀGINA CARRITO
+
 let variableNumero = 1;
  
    
@@ -82,13 +84,31 @@ function multiplicar(){
     document.getElementById("totalprice").innerHTML = total.toFixed(2)
     let totaltotal = total + parseFloat(i) + parseFloat (j)
     document.getElementById("totaltotalprice").innerHTML = totaltotal.toFixed(2)
-
-
-
 }
 
 
+//PART PÀGINA PRINCIPAL (AFEGIR A CARRITO)    
+
+let numcart = 0
+function sumar5(){
+    numcart++
+    document.getElementById("cartnum").innerHTML = `${numcart}`;
+    ver ()
+}
+
+
+function ocultar (){
+    document.getElementById("cartnum").style.display = 'none'
+    }
     
+function ver (){
+    document.getElementById("cartnum").style.display = ''
+    }    
+    
+
+
+
+
 
   
 
