@@ -5,9 +5,7 @@ body{
     /*border-style: solid;
     border-color: red;*/
     margin: 0px;
-    overflow-y: hidden;
     overflow-x: hidden;
-    overflow: hidden;
     background-color: #fafafa;
 }
 
