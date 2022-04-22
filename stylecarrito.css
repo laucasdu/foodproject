@@ -30,6 +30,8 @@ h2{
     color: black;
 }
 
+
+
 h1{
     margin-top: -3%;
     margin-left: 5%;
@@ -140,11 +142,11 @@ h3{
     border-radius: 50%;
 }
 
-.morebut:hover{
+.morebut:active{
     background-color: #ffda80;
 
 }
-.lessbut:hover{
+.lessbut:active{
     background-color: #ffda80;
 
 }
@@ -218,6 +220,7 @@ footer{
     text-decoration: none;
     border-style: inherit;
 }
+
 
 
 
