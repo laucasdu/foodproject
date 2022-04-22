@@ -206,6 +206,7 @@ footer{
     justify-content: center;
 }
 .finalbutton {
+    margin-top: -2%;
     background-color: #fcbd3a;
     font-size: 2em;
     color: rgb(20, 19, 19);
