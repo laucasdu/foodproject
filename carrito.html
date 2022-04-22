@@ -8,7 +8,7 @@
     <script src="./dinamic.js"></script>
     <title>AddToCart</title>
 </head>
-<body>  
+<body onload="multiplicar()">  
     <header>
         <div class="top">
             <h2>Clear All</h2>
@@ -20,14 +20,14 @@
         </div>
     </header>
     
-    <main>
+    <main">
         <div class="itemcalifornia">
             <div class="pizza">
                 <img class="pizzafoto" src="./images/pizza2.png">
             </div>
             <div class="pizzainfo">
                 <h4>California Pizza</h4>
-                <h3>$8.50</h3>
+                <h3>$<span id="california">8.50</span></h3>
             </div>
             <div class="quantity">
                 <botton class="morebut" onclick= "sumar()">+</botton>
@@ -42,7 +42,7 @@
             </div>
             <div class="pizzainfo">
                 <h4>Greek Pizza</h4>
-                <h3>$12.99</h3>
+                <h3>$<span id="greek">12.99</span></h3>
             </div>
             <div class="quantity">
                 <botton class="morebut" onclick= "sumar2()">+</botton>
@@ -57,7 +57,7 @@
             </div>
             <div class="pizzainfo">
                 <h4>Sicilian Pizza</h4>
-                <h3>$7.90</h3>
+                <h3>$<span id="sicilian">7.90</span></h3>
             </div>
             <div class="quantity">
                 <botton class="morebut" onclick= "sumar3()">+</botton>
@@ -72,7 +72,7 @@
             </div>
             <div class="pizzainfo">
                 <h4>Louis Pizza</h4>
-                <h3>$4.79</h3>
+                <h3>$<span id="louis">4.79</span></h3>
             </div>
             <div class="quantity">
                 <botton class="morebut" onclick= "sumar4()">+</botton>
@@ -86,22 +86,22 @@
     <section>
         <div class="textfinal">
             <h6>Item total:</h6>
-            <h3 class="price">$0.00</h3>
+            <h3 class="price">$<span id="totalprice" >0.00</span></h3>
         </div>
 
         <div class="textfinal">
             <h6>Delivery charge:</h6>
-            <h3 class="price">$1.00</h3>
+            <h3 class="price">$<span id="delivery">1.00</span></h3>
         </div>
 
         <div class="textfinal">
             <h6>Tax:</h6>
-            <h3 class="price">$0.50</h3>
+            <h3 class="price">$<span id="tax">0.50</span></h3>
         </div>
 
         <div class="textfinaltotal">
             <h6 class="total">Total</h6>
-            <h3 class="pricetotal">$1.50</h3>
+            <h3 class="pricetotal">$<span id="totaltotalprice">1.50</span></h3>
         </div>
     </section>
 
