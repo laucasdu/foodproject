@@ -79,9 +79,9 @@ function multiplicar(){
 
 
     let total = (variableNumero*parseFloat(e))+(variableNumero2*parseFloat(f))+(variableNumero3*parseFloat(g))+(variableNumero4*parseFloat(h))
-    document.getElementById("totalprice").innerHTML = total
+    document.getElementById("totalprice").innerHTML = total.toFixed(2)
     let totaltotal = total + parseFloat(i) + parseFloat (j)
-    document.getElementById("totaltotalprice").innerHTML = totaltotal
+    document.getElementById("totaltotalprice").innerHTML = totaltotal.toFixed(2)
 
 
 
