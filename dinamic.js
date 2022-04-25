@@ -4,14 +4,14 @@
 let variableNumero = 1;
  
    
-    function sumar() {
+    function sumardiv1() {
     variableNumero++
     document.getElementById("number1").innerHTML = `${variableNumero}`;
     multiplicar()
    
     }
     
-    function restar() {
+    function restardiv1() {
         if (variableNumero <= 0){
             variableNumero = 0
         } else {
@@ -23,12 +23,12 @@ let variableNumero = 1;
     }
 
 let variableNumero2=1;
-    function sumar2() {
+    function sumardiv2() {
     variableNumero2++
     document.getElementById("number2").innerHTML = `${variableNumero2}`;
     multiplicar()
     }
-    function restar2() {
+    function restardiv2() {
         if (variableNumero2 <= 0){
             variableNumero2 = 0
         } else {
@@ -38,12 +38,12 @@ let variableNumero2=1;
         multiplicar()
     }
 let variableNumero3=1;
-    function sumar3() {
+    function sumardiv3() {
     variableNumero3++
     document.getElementById("number3").innerHTML = `${variableNumero3}`;
     multiplicar()
     }
-    function restar3() {
+    function restardiv3() {
         if (variableNumero3 <= 0){
             variableNumero3 = 0
         } else {
@@ -55,12 +55,12 @@ let variableNumero3=1;
 
 
 let variableNumero4=1;
-    function sumar4() {
+    function sumardiv4() {
     variableNumero4++
     document.getElementById("number4").innerHTML = `${variableNumero4}`;
     multiplicar()
     }
-    function restar4() {
+    function restardiv4() {
         if (variableNumero4 <= 0){
             variableNumero4 = 0
         } else {
@@ -72,17 +72,17 @@ let variableNumero4=1;
 
     
 function multiplicar(){
-    let e = document.querySelector("#california").innerHTML;
-    let f = document.querySelector("#greek").innerHTML;
-    let g = document.querySelector("#sicilian").innerHTML;
-    let h = document.querySelector("#louis").innerHTML;
-    let i = document.getElementById("tax").innerHTML;
-    let j = document.getElementById("delivery").innerHTML;
+    let preuCalifornia = document.querySelector("#california").innerHTML;
+    let preuGreek = document.querySelector("#greek").innerHTML;
+    let preuSicilian = document.querySelector("#sicilian").innerHTML;
+    let preuLouis = document.querySelector("#louis").innerHTML;
+    let tax = document.getElementById("tax").innerHTML;
+    let delivery = document.getElementById("delivery").innerHTML;
 
 
-    let total = (variableNumero*parseFloat(e))+(variableNumero2*parseFloat(f))+(variableNumero3*parseFloat(g))+(variableNumero4*parseFloat(h))
+    let total = (variableNumero*parseFloat(preuCalifornia))+(variableNumero2*parseFloat(preuGreek))+(variableNumero3*parseFloat(preuSicilian))+(variableNumero4*parseFloat(preuLouis))
     document.getElementById("totalprice").innerHTML = total.toFixed(2)
-    let totaltotal = total + parseFloat(i) + parseFloat (j)
+    let totaltotal = total + parseFloat(tax) + parseFloat (delivery)
     document.getElementById("totaltotalprice").innerHTML = totaltotal.toFixed(2)
 }
 
@@ -90,18 +90,18 @@ function multiplicar(){
 //PART PÀGINA PRINCIPAL (AFEGIR A CARRITO)    
 
 let numcart = 0
-function sumar5(){
+function sumarCarrito(){
     numcart++
     document.getElementById("cartnum").innerHTML = `${numcart}`;
     ver ()
 }
 
 
-function ocultar (){
+function ocultarDiv (){
     document.getElementById("cartnum").style.display = 'none'
     }
     
-function ver (){
+function verDiv (){
     document.getElementById("cartnum").style.display = ''
     }    
     
