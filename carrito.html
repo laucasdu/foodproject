@@ -11,8 +11,8 @@
 <body onload="multiplicar()">  
     <header>
         <div class="top">
-            <h2>Clear All</h2>
-            <a class="close" href="./index.html">x</a>
+            <button id="clear" onclick="clearAll()">Clear All</button>
+            <button id="close" onclick="location.href='./index.html'">x</button>
         </div>
         
         <div>
@@ -20,8 +20,9 @@
         </div>
     </header>
     
-    <main">
-        <div class="itemcalifornia">
+    <main>
+
+        <div class="itemcalifornia"  id="divCalifornia">
             <div class="pizza">
                 <img class="pizzafoto" src="./images/pizza2.png">
             </div>
@@ -36,7 +37,7 @@
             </div>
         </div>
 
-        <div class="itemgreek">
+        <div class="itemgreek" id="divGreek">
             <div class="pizza">
                 <img class="pizzafoto" src="./images/pizzapepp.png">
             </div>
@@ -51,7 +52,7 @@
             </div>
         </div>
 
-        <div class="itemsicilian">
+        <div class="itemsicilian" id="divSicilian">
             <div class="pizza">
                 <img class="pizzafoto" src="./images/menueditor_item_47f8847646904252bb75a46fb0871eca_1622334660456700182.jpg">
             </div>
@@ -66,7 +67,7 @@
             </div>
         </div>
 
-        <div class="itemlouis">
+        <div class="itemlouis" id="divLouis">
             <div class="pizza">
                 <img class="pizzafoto" src="./images/Beef-n-Onion.png">
             </div>
@@ -80,6 +81,7 @@
                 <botton class="lessbut" onclick="restardiv4()">-</botton>  
             </div>
         </div>
+
 
     </main>
     
@@ -106,7 +108,7 @@
     </section>
 
     <footer>
-        <button class="finalbutton" href="apiwhatsapp">Checkout</button>
+        <button onclick=oops() class="finalbutton" href="apiwhatsapp">Checkout</button>
     </footer>
     
 
