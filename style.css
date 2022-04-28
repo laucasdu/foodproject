@@ -316,7 +316,7 @@ header{
     .pizzachoose1 {
         /*border-style: solid;
         border-color:aquamarine;*/
-        width:24    %;
+        width:24%;
         display: flex;
         justify-content: center;
         position: relative;
