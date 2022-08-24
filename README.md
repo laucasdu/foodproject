@@ -1,4 +1,4 @@
-MOMENT APP
+FOOD PROJECT 
 ============
 
 ## Table of Contents
@@ -7,11 +7,6 @@ MOMENT APP
 3. [INSTALLATION](#INSTALLATION_)
 
 ***
-
-## PROJECT LINKS
-
-[Front-End](https://github.com/laucasdu/Moments-React-Front.git)</br>
-[Back-End](https://github.com/laucasdu/Moments-Java-Back.git)
 
 ## GENERAL INFO
 
