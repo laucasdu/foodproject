@@ -46,7 +46,7 @@ This is a website prototype for a restaurant so the users can order pizzas onlin
 
 1. Clone the repository with the following command:  
 ```
-git clone https://github.com/laucasdu/Moments-React-Front.git
+git clone https://github.com/laucasdu/foodproject.git
 ```
 
 2. To view the project, you will need to run the following command to install the dependencies used to have the project with all its functions and views correctly.
