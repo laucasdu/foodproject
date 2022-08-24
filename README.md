@@ -35,6 +35,13 @@ This is a website prototype for a restaurant so the users can order pizzas onlin
 - JS ES6 VANILLA
 
 
+## TEAM 
+
+* **Eric Puigvendrello**
+* **Laura Castillo** 
+* **Joel Blasi**
+
+
 ## INSTALLATION
 
 1. Clone the repository with the following command:  
